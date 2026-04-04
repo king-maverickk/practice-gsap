@@ -1,0 +1,55 @@
+.project-card {
+    background-color:thistle;
+    display: flex;
+    flex-direction: column;
+    border-radius: 24px;
+    position: relative;
+    justify-content: flex-end;
+    min-height: 400px;
+}
+
+.project-details {
+    padding: 2rem;
+}
+.project-title {
+  font: 500 18px/1.21 Inter, Helvetica, Arial, serif;
+  margin: 0;
+}
+
+.project-subtitle {
+  font: 500 14px/1.21 Inter, Helvetica, Arial, serif;
+  margin: 0;
+}
+
+.tag {
+    position: absolute;
+    font: 500 15px/1.21 Inter, Helvetica, Arial, serif;
+}
+
+.tag-1 {
+    top: 20%;
+    left: -10%;
+    rotate: -25deg;
+}
+
+.tag-2 {
+    top: -5%;
+    right: 50%;
+}
+.tag-3 {
+    top: 40%;
+    right: -10%;
+    rotate: 25deg;
+}
+
+.tag-4 {
+    bottom: 8%;
+    left: -10%;
+    rotate: -25deg;
+}
+
+.tag-5 {
+    bottom: 20%;
+    right: -5%;
+    rotate: 15deg;
+}
