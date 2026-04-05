@@ -65,3 +65,15 @@ Once settled, tags float gently up and down in a slow, looping animation.
 ### On mouse-leave - reverse
 
 Tags animate back toward the center and fade out, reversing the entry sequence.
+
+
+---
+
+## CSS implementation
+
+The default currently is the final view. Visible and spread out. 
+
+The default should be invisible and closer to the center. Additionally, I need to have a transition **behavior...?** What I mean is there needs to be a smooth transition (opacity and positioning). Do I use translateX/Y or just the top/bottom/left/right properties that absolute position uses? 
+
+...AI did it for it me.
+
