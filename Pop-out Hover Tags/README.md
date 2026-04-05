@@ -81,3 +81,21 @@ The default should be invisible and closer to the center. Additionally, I need t
 
 ...AI did it for it me.
 
+## How to use
+
+- Copy and paste the SECTION to the html file where you plan to use this.
+
+- Copy the CSS file to wherever your css files lie (e.g. relative folder "./css/")
+
+- ADD this to <head> "<link rel="stylesheet" type="text/css" href="./css/Pop-out-Hover-Tags.css" />" 
+
+- Edit the "background-image: url('....')" in-line style for each project card
+
+- Add href link page 
+
+- Edit the individual tag text
+
+
+# Later Ideas
+
+- Shrink the other cards - non-hovered cards - to make the tags more legible and not over lap with the other cards' content
