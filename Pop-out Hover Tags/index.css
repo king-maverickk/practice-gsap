@@ -1,3 +1,19 @@
+.project-cards-section {
+    display: flex;
+    gap: 24px;
+    margin-top: 2rem;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    max-width: 1466px;
+}
+
+@media (max-width: 700px) {
+    .project-cards-section {
+        flex-direction: column;
+        
+    }
+}
 .project-card {
     background-color:thistle;
     display: flex;
