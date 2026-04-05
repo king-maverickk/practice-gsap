@@ -62,6 +62,10 @@ Tags originate near the center of the card and animate outward to their final po
 
 Once settled, tags float gently up and down in a slow, looping animation.
 
+Created a wrapper around each tag so that the tags have their previously created pop-out animation, and then the wrapper element is the one that has the breathing idle animation. 
+
+The wrapper floats, the inner tag snaps in; two separate transform contexts, no conflict.
+
 ### On mouse-leave - reverse
 
 Tags animate back toward the center and fade out, reversing the entry sequence.

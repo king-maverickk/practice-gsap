@@ -44,30 +44,50 @@
     z-index: 100;
 }
 
+.tag-wrapper {
+  position: absolute;
+}
+
+/* Breathing lives here — always running when hovered */
+@keyframes breathe {
+  0%, 100% { transform: translateY(0px); }
+  50%       { transform: translateY(-15px); }
+}
+
+.project-card:hover .tag-wrapper {
+  animation: breathe 2.8s ease-in-out infinite;
+}
+
+
 .tag-1 {
     top: 20%;
     left: -10%;
     rotate: -25deg;
+    animation-delay: 0ms;
 }
 
 .tag-2 {
     top: -5%;
     right: 50%;
+    animation-delay: 400ms;
 }
 .tag-3 {
     top: 40%;
     right: -10%;
     rotate: 25deg;
+    animation-delay: 800ms; 
 }
 
 .tag-4 {
     bottom: 8%;
     left: -10%;
     rotate: -25deg;
+    animation-delay: 200ms;
 }
 
 .tag-5 {
     bottom: 20%;
     right: -5%;
     rotate: 15deg;
+    animation-delay: 600ms;
 }
