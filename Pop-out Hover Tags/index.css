@@ -6,6 +6,14 @@
     position: relative;
     justify-content: flex-end;
     min-height: 400px;
+    
+}
+
+.project-card:hover {
+    cursor: pointer;
+    transform: translateY(-10px);
+    transition: transform 600ms ease;
+    z-index: 99; /* so tags appear above the card*/ 
 }
 
 .project-details {
